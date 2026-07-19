@@ -1,0 +1,17 @@
+export interface Hero {
+  badge: string;
+
+  heading: string;
+
+  description: string;
+
+  primaryButton: {
+    text: string;
+    href: string;
+  };
+
+  secondaryButton: {
+    text: string;
+    href: string;
+  };
+}
