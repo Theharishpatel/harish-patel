@@ -1,5 +1,5 @@
 export interface Project {
-  id: number;
+  id: string;
 
   title: string;
 
@@ -7,11 +7,13 @@ export interface Project {
 
   image: string;
 
+  technologies: string[];
+
   github: string;
 
   live: string;
 
-  technologies: string[];
-
   featured: boolean;
+
+  year: string;
 }
