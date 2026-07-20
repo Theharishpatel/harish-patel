@@ -1,4 +1,4 @@
-import { Navbar } from "@/components/navigation/Navbar";
+import { Navbar } from "@/components/layout/navigation/Navbar";
 import { AboutSection } from "@/components/sections/about";
 import { ContactSection } from "@/components/sections/contact/ContactSection";
 import { ExperienceSection } from "@/components/sections/experience/ExperienceSection";
