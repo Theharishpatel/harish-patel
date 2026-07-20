@@ -1,27 +1,25 @@
-import { Experience } from "@/types/experience";
-
-export const experience: Experience[] = [
+export const experiences = [
   {
-    company: "CodeAlpha",
+    id: "bridge",
 
-    position: "Frontend Developer Intern",
+    company: "Bridge Healthcare",
 
-    startDate: "2025-01",
+    role: "Frontend Developer Intern",
 
-    endDate: "2025-04",
+    duration: "Jun — Nov 2025",
 
     location: "Remote",
 
     description: [
-      "Developed reusable UI components.",
-      "Built responsive pages.",
-      "Integrated REST APIs.",
+      "Built responsive patient dashboard interfaces using Next.js and Tailwind CSS.",
+
+      "Integrated RESTful APIs for real-time patient data synchronization and state management.",
+
+      "Optimized application bundle sizes by 25% through lazy loading and component modularization.",
     ],
 
-    technologies: [
-      "React",
-      "JavaScript",
-      "Tailwind CSS",
-    ],
+    technologies: [],
+
+    current: false,
   },
 ];
